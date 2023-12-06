@@ -92,12 +92,13 @@ int main()
 {
 
     int month;
-
+    bool hungry = true;
+    std::cout << (hungry ? "youre hungry" : "youre full");
     std::cout << "Enter month 1-12: ";
     std::cin >> month;
 
-    switch (month)
-    {
+    
+    switch (month) {
     case 1:
         std::cout << "It is jan";
         break;
