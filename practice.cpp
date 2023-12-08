@@ -88,28 +88,41 @@ namespace second
 //     return 0;
 // }
 
-int main()
-{
+// int main()
+// {
 
-    int month;
-    bool hungry = true;
-    std::cout << (hungry ? "youre hungry" : "youre full");
-    std::cout << "Enter month 1-12: ";
-    std::cin >> month;
+//     int month;
+//     bool hungry = true;
+//     std::cout << (hungry ? "youre hungry" : "youre full");
+//     std::cout << "Enter month 1-12: ";
+//     std::cin >> month;
 
     
-    switch (month) {
-    case 1:
-        std::cout << "It is jan";
-        break;
-    case 2:
-        std::cout << "It is feb";
-        break;
-    case 3:
-        std::cout << "It is march";
-        break;
-    default:
-        std::cout << "enter a valid month value";
-        break;
-    }
+//     switch (month) {
+//     case 1:
+//         std::cout << "It is jan";
+//         break;
+//     case 2:
+//         std::cout << "It is feb";
+//         break;
+//     case 3:
+//         std::cout << "It is march";
+//         break;
+//     default:
+//         std::cout << "enter a valid month value";
+//         break;
+//     }
+// }
+
+void happy (std::string name, int age) {
+    std::cout << "HAPPY BDAY " << name << '\n';
+    std::cout << "You are " << age;
+}
+
+int main () {
+    std::string name = "TWIZ";
+    int age = 12;
+    happy(name, age);
+
+    return 0;
 }
