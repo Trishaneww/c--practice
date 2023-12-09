@@ -16,5 +16,22 @@ int main() {
         std::cout << food << '\n';
     }
 
+    std::string foods[5];
+    int size = sizeof(foods)/sizeof(foods[0]);
+    std::string temp;
+
+
+    for (int i =0; i < size; i++) {
+        std::cout << "please enter a food or 'q' to quit" << i + 1;
+        std::getline(std::cin, temp);
+
+        if(temp == "q") {
+            break;
+        } else {
+            foods[i] = temp;
+        }
+    }
+
+
     return 0;
 }
