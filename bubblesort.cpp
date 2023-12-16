@@ -23,6 +23,5 @@ int main() {
         std::cout << element << " ";
     }
 
-
     return 0;
 }
