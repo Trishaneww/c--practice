@@ -1,10 +1,8 @@
 #include <iostream>
 
 int main() {
-
     // fill() = fills a range of elements with a specified value 
     // fill(begin, end, value)
-
     const int SIZE = 99;
     std::string foods[SIZE];
 
@@ -20,7 +18,6 @@ int main() {
     int size = sizeof(foods)/sizeof(foods[0]);
     std::string temp;
 
-
     for (int i =0; i < size; i++) {
         std::cout << "please enter a food or 'q' to quit" << i + 1;
         std::getline(std::cin, temp);
@@ -31,7 +28,6 @@ int main() {
             foods[i] = temp;
         }
     }
-
 
     return 0;
 }

@@ -24,6 +24,5 @@ int main() {
     for(int element : array) {
         std::cout << element << " ";
     }
-
     return 0;
 }

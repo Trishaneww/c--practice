@@ -24,6 +24,7 @@ int main () {
     //         break;
     // }
 
+    
     do {
         std::cout << "guess the number";
         std::cin >> guess;
