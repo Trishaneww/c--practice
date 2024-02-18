@@ -24,7 +24,7 @@ int main () {
     //         break;
     // }
 
-    
+
     do {
         std::cout << "guess the number";
         std::cin >> guess;
@@ -40,7 +40,6 @@ int main () {
             std::cout << "Enter valid guess";
         }
     } while (guess != randNum);
-
 
     return 0;
 }
